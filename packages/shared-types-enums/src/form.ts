@@ -242,6 +242,7 @@ export interface FormModel {
     googleanalytics: string
     facebookpixel: string
   }
+  updatedAt: number
 }
 
 export interface ChoiceValue {

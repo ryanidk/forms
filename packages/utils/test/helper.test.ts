@@ -97,6 +97,14 @@ test('new Map() is Map', () => {
   expect(helper.isMap(new Map())).toBe(true)
 })
 
+test('new WeakSet() is WeakSet', () => {
+  expect(helper.isWeakSet(new WeakSet())).toBe(true)
+})
+
+test('new WeakMap() is WeakMap', () => {
+  expect(helper.isWeakMap(new WeakMap())).toBe(true)
+})
+
 test("Symbol('hello') is Symbol", () => {
   expect(helper.isSymbol(Symbol('hello'))).toBe(true)
 })
@@ -239,7 +247,9 @@ test('HTTPS://WWW.FOOBAR.COM/ is url', () => {
 })
 
 test('http://xn------eddceddeftq7bvv7c4ke4c.xn--p1ai is url', () => {
-  expect(helper.isURL('http://xn------eddceddeftq7bvv7c4ke4c.xn--p1ai')).toBe(true)
+  expect(helper.isURL('http://xn------eddceddeftq7bvv7c4ke4c.xn--p1ai')).toBe(
+    true
+  )
 })
 
 test('test.com?ref=http://test2.com is url', () => {

@@ -62,6 +62,13 @@ export function pickObject(
   return newObj
 }
 
+export function excludeObject(
+  target: Record<string, any>,
+  excludes: Array<string> = []
+): Record<string, any> {
+  return pickObject(target, [], excludes)
+}
+
 export function pickValidValues<T = string | number | boolean>(
   target: Record<string, T>,
   fields: Array<string | string[]>

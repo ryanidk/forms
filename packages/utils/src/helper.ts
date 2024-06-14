@@ -1,6 +1,9 @@
 import visUUID from 'validator/lib/isUUID'
 import visFQDN from 'validator/lib/isFQDN'
-import { default as visNumeric, IsNumericOptions } from 'validator/lib/isNumeric'
+import {
+  default as visNumeric,
+  IsNumericOptions
+} from 'validator/lib/isNumeric'
 import { default as visEmail, IsEmailOptions } from 'validator/lib/isEmail'
 import { default as visURL, IsURLOptions } from 'validator/lib/isURL'
 
@@ -192,6 +195,8 @@ export default {
   isNan,
   isSet,
   isMap,
+  isWeakSet,
+  isWeakMap,
   isSymbol,
   isObject,
   isDate,

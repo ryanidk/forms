@@ -140,7 +140,7 @@ export const Sidebar: FC = () => {
           <h2 className="heyform-sidebar-title">{t('Questions')}</h2>
           <Button.Link leading={<XIcon />} onClick={handleCloseSidebar} />
         </div>
-        <div className="heyform-sidebar-content scrollbar">
+        <div className="heyform-sidebar-content heyform-scrollbar">
           <div className="heyform-sidebar-question-list">
             {fields.map(field => (
               <Question

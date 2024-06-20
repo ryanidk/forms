@@ -10,6 +10,9 @@ export const DEFAULT_THEME: FormTheme = {
   backgroundColor: '#fff'
 }
 
+export const SYSTEM_FONTS =
+  '-apple-system, BlinkMacSystemFont, Helvetica, Roboto, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", serif'
+
 export const GOOGLE_FONTS = [
   'Public Sans',
   'Inter',
@@ -58,26 +61,29 @@ export const GOOGLE_FONTS = [
   'Noto Sans'
 ]
 
-export function getWebFontURL(fontName?: string) {
-  if (fontName && GOOGLE_FONTS.includes(fontName)) {
-    fontName = fontName.replace(/\s+/g, '+')
-    return `https://fonts.googleapis.com/css2?family=${fontName}:wght@400;500;600;700;800&display=swap`
+export function getWebFontURL(fontName?: string | string[]) {
+  const fontNames = ((helper.isArray(fontName) ? fontName : [fontName]) as string[]).filter(row => row && GOOGLE_FONTS.includes(row))
+
+  if (fontNames.length > 0) {
+    const families = fontNames.map(fontName => `family=${fontName.replace(/\s+/g, '+')}:wght@400;500;600;700;800`)
+
+    return `https://fonts.googleapis.com/css2?${families.join('&')}&display=swap`
   }
 }
 
-export function insertWebFont(fontName?: string) {
+export function insertWebFont(fontName?: string | string[], id = 'heyform-webfont') {
   const href = getWebFontURL(fontName)
 
   if (!href) {
     return
   }
 
-  let link = document.getElementById('heyform-webfont')
+  let link = document.getElementById(id)
 
   if (!link) {
     link = document.createElement('link')
 
-    link.id = 'heyform-webfont'
+    link.id = id
     link.setAttribute('rel', 'stylesheet')
 
     document.head.appendChild(link)

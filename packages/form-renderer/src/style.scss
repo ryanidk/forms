@@ -1,74 +1,72 @@
 @import "flag-icons/css/flag-icons.css";
 
-@mixin scrollbar() {
-  &::-webkit-scrollbar {
+@mixin heyform-scrollbar() {
+  &::-webkit-heyform-scrollbar {
     height: 12px;
     width: 12px
   }
 
-  &::-webkit-scrollbar-thumb:vertical {
+  &::-webkit-heyform-scrollbar-thumb:vertical {
     background-color: transparent;
     border-radius: 6px
   }
 
-  &:hover::-webkit-scrollbar-thumb:vertical {
+  &:hover::-webkit-heyform-scrollbar-thumb:vertical {
     border: 3px solid transparent;
     background-color: rgba(0, 0, 0, .2);
     background-clip: content-box;
   }
 
-  &::-webkit-scrollbar-button:vertical {
+  &::-webkit-heyform-scrollbar-button:vertical {
     display: block
   }
 
-  &::-webkit-scrollbar-button:start:decrement {
+  &::-webkit-heyform-scrollbar-button:start:decrement {
     display: block
   }
 
-  &::-webkit-scrollbar-button:end:increment {
+  &::-webkit-heyform-scrollbar-button:end:increment {
     display: block
   }
 
-  &::-webkit-scrollbar-button:vertical:start:increment {
+  &::-webkit-heyform-scrollbar-button:vertical:start:increment {
     display: none
   }
 
-  &::-webkit-scrollbar-button:vertical:end:decrement {
+  &::-webkit-heyform-scrollbar-button:vertical:end:decrement {
     display: none
   }
 
-  &::-webkit-scrollbar-button:vertical:increment {
+  &::-webkit-heyform-scrollbar-button:vertical:increment {
     display: none
   }
 
-  &::-webkit-scrollbar-button:vertical:decrement {
+  &::-webkit-heyform-scrollbar-button:vertical:decrement {
     display: none
   }
 
-  &::-webkit-scrollbar-track:vertical {
+  &::-webkit-heyform-scrollbar-track:vertical {
     display: none
   }
 
-  &::-webkit-scrollbar-track-piece {
+  &::-webkit-heyform-scrollbar-track-piece {
     background-color: transparent
   }
 
-  &::-webkit-scrollbar-corner:vertical {
+  &::-webkit-heyform-scrollbar-corner:vertical {
     background-color: transparent
   }
 
-  &::-webkit-scrollbar-resizer:vertical {
+  &::-webkit-heyform-scrollbar-resizer:vertical {
     background-color: transparent
   }
 }
 
-.scrollbar {
+.heyform-scrollbar {
   overflow-y: auto;
-  overflow-y: overlay;
-  scrollbar-gutter: stable;
 
   @media (min-width: 800px) {
-    @include scrollbar();
+    @include heyform-scrollbar();
   }
 }
 
@@ -630,7 +628,7 @@ button.button-icon-only {
 
 .heyform-scroll-wrapper {
   @apply relative px-6 md:px-20 overflow-x-hidden;
-  @extend .scrollbar;
+  @extend .heyform-scrollbar;
   transition: transform 500ms ease 0s, opacity 200ms ease 0s;
   will-change: transform, opacity;
   z-index: 6;
@@ -1750,7 +1748,7 @@ button.heyform-submit-button {
 
     .heyform-block-container {
       overflow-y: auto;
-      @include scrollbar();
+      @include heyform-scrollbar();
     }
 
     .heyform-theme-background {

@@ -12,11 +12,7 @@ export const Branding: FC = () => {
     return null
   }
 
-  return (
-    <a className="heyform-branding" href="https://heyform.net/?ref=badge" target="_blank">
-      <LogoIcon /> {t('Made with {{name}}', { name: 'HeyForm' })}
-    </a>
-  )
+  return null
 }
 
 export const WelcomeBranding: FC = () => {

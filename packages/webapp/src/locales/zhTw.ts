@@ -1,6 +1,6 @@
 export default {
   app: {
-    name: 'HeyForm',
+    name: 'Forms',
     copy: '複製',
     copied: '已複製'
   },
@@ -10,7 +10,7 @@ export default {
     startFree: '建立一個帳號',
     signWith: '使用以下方式登入',
     noAccount: '還沒有帳號嗎？',
-    bindAccountDescription: '已經是 HeyForm 的使用者了嗎？登入並連結您的帳號。',
+    bindAccountDescription: '已經是 Forms 的使用者了嗎？登入並連結您的帳號。',
     continueWith: '或者繼續使用',
     forgotPassword: '忘記您的密碼？',
     or: '或者',
@@ -225,7 +225,7 @@ export default {
     update: '更新',
     settings: {
       avatar: '個人圖示',
-      avatarText: 'Gravatar 預設為您的 HeyForm 個人圖示，您可以在這裡上傳您的個人圖示。',
+      avatarText: 'Gravatar 預設為您的 Forms 個人圖示，您可以在這裡上傳您的個人圖示。',
       deletedAccount: {
         sendEmail: '一封包含驗證碼的電子郵件已傳送至',
         del: '刪除帳號',
@@ -296,7 +296,7 @@ export default {
     embedInWebsite: 'Embed in website',
     embed: '嵌入網站',
     getTheCode: 'Get the code',
-		addHeyform: 'Add HeyForm to your website',
+		addHeyform: 'Add Forms to your website',
 		embedCodeText: 'Paste the following code snippet in the body section of your website.',
 		transparentBackground: 'Transparent background',
 		position: 'Position',
@@ -346,11 +346,11 @@ export default {
     embedWeb: [
       {
         title: '標準',
-        description: '將 HeyForm 作為您網站的一部分呈現'
+        description: '將 Forms 作為您網站的一部分呈現'
       },
       {
         title: '彈出',
-        description: 'HeyForm 在螢幕中央彈出。'
+        description: 'Forms 在螢幕中央彈出。'
       },
       {
         title: '彈出視窗',
@@ -402,7 +402,7 @@ export default {
     subTitle: '管理您的表單設定',
     Extra: '額外的',
     subArchive: '提交存檔',
-    archiveText: '如果您不希望 HeyForm 儲存您的提交，請停用提交存檔。',
+    archiveText: '如果您不希望 Forms 儲存您的提交，請停用提交存檔。',
     timeLimit: '時間限制',
 		time: 'Time',
     timeText: '如果您希望在倒數計時結束後阻止送出，可以在此設定允許的時間。',
@@ -478,7 +478,7 @@ export default {
     tableName: '表格名稱',
     mapFields: '對映欄位',
     tableText3:
-      '將 HeyForm 對映到 Airtable 欄位。輸入 Airtable 欄位名稱時必須與您的表格上的名稱完全相同。如果您在 Airtable 上更改了欄位名稱，請在此處也進行更新，否則整合將無法按預期運作。',
+      '將 Forms 對映到 Airtable 欄位。輸入 Airtable 欄位名稱時必須與您的表格上的名稱完全相同。如果您在 Airtable 上更改了欄位名稱，請在此處也進行更新，否則整合將無法按預期運作。',
     DropboxText: '如果您在表單中添加了 "檔案上傳" 元件，則將檔案放置在資料夾中。',
     select: '選擇資料夾',
     Connect: '連接',
@@ -529,14 +529,14 @@ export default {
     SelectWorksheet: '選擇工作表',
     MapFields: '對映欄位',
     googleSheet:
-      '將 HeyForm 對映到 Google Sheets 欄位。如果您在 Google Sheets 上更改了一個欄位，請在此處進行更新，否則整合將無法按預期運作。',
-    leftPlaceholder: 'HeyForm 問題',
+      '將 Forms 對映到 Google Sheets 欄位。如果您在 Google Sheets 上更改了一個欄位，請在此處進行更新，否則整合將無法按預期運作。',
+    leftPlaceholder: 'Forms 問題',
     rightPlaceholder: 'Google Sheets 欄位',
-    leftTipText: '選擇 HeyForm 問題',
+    leftTipText: '選擇 Forms 問題',
     rightTipText: '選擇 Google Sheets 欄位',
     ColumnValues: '列值（可選填的）',
     mondayText:
-      '將 HeyForm 對映到 Monday 列。如果您在 Monday 更改了一列，請也在此處更新，否則整合將無法按預期運作。',
+      '將 Forms 對映到 Monday 列。如果您在 Monday 更改了一列，請也在此處更新，否則整合將無法按預期運作。',
     Board: '機構',
     SelectBoard: '選擇一個機構',
     Group: '群組（可選填的）',
@@ -576,7 +576,7 @@ export default {
     Status: '狀態',
     ChooseStatus: '選擇狀態',
     Authorization: '授權',
-    AuthorizationText: '首先，請授權 HeyForm 存取您的資料',
+    AuthorizationText: '首先，請授權 Forms 存取您的資料',
     login: '登入到',
     loginGoogle: '登入 Google'
   },

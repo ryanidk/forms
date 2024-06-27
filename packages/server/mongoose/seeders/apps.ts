@@ -23,7 +23,7 @@ export default {
         category: 'Analytics',
         name: 'Facebook Pixel',
         description:
-          'Receive useful insights such as demographics, user activity, and impressions of your HeyForm.',
+          'Receive useful insights such as demographics, user activity, and impressions of your Forms.',
         avatar: '/static/facebookpixel.png',
         homepage: 'https://www.facebook.com/business/learn/facebook-ads-pixel',
         helpLinkUrl: null,
@@ -34,7 +34,7 @@ export default {
         category: 'Analytics',
         name: 'Google Analytics',
         description:
-          'Receive useful insights such as demographics, user activity, and impressions of your HeyForm.',
+          'Receive useful insights such as demographics, user activity, and impressions of your Forms.',
         avatar: '/static/googleanalytics.png',
         homepage: 'https://analytics.google.com',
         helpLinkUrl: null,

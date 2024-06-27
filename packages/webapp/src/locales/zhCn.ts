@@ -1,6 +1,6 @@
 export default {
   app: {
-    name: 'HeyForm',
+    name: 'Forms',
     copy: '复制',
     copied: '已复制'
   },
@@ -10,7 +10,7 @@ export default {
     startFree: '新建一个账号',
     signWith: '使用以下方式登录',
     noAccount: '没有账号? 立即注册',
-    bindAccountDescription: '已有HeyForm账号? 输入账号信息登录立即绑定',
+    bindAccountDescription: '已有Forms账号? 输入账号信息登录立即绑定',
     continueWith: '或者其他方式登录',
     rememberMe: '记住我',
     forgotPassword: '忘记密码?',
@@ -222,7 +222,7 @@ export default {
     update: '更新',
     settings: {
       avatar: '头像',
-      avatarText: 'Gravatar 默认作为您的 HeyForm 头像，您可以在这里上传您的自定义头像。',
+      avatarText: 'Gravatar 默认作为您的 Forms 头像，您可以在这里上传您的自定义头像。',
       deletedAccount: {
         sendEmail: '一封包含验证码的电子邮件已发送至',
         del: '删除帐户',
@@ -293,7 +293,7 @@ export default {
     embedInWebsite: 'Embed in website',
     embed: '嵌入网页',
     getTheCode: 'Get the code',
-		addHeyform: 'Add HeyForm to your website',
+		addHeyform: 'Add Forms to your website',
 		embedCodeText: 'Paste the following code snippet in the body section of your website.',
 		transparentBackground: 'Transparent background',
 		position: 'Position',
@@ -343,11 +343,11 @@ export default {
     embedWeb: [
       {
         title: '标准',
-        description: '将 HeyForm 作为您网站的一部分'
+        description: '将 Forms 作为您网站的一部分'
       },
       {
         title: '弹出',
-        description: 'HeyForm 在屏幕中央弹出。'
+        description: 'Forms 在屏幕中央弹出。'
       },
       {
         title: '弹出窗口',
@@ -395,7 +395,7 @@ export default {
     manageForm: '管理您的表单设置',
     Extra: '额外的',
     subArchive: '提交存档',
-    archiveText: '如果您不希望 HeyForm 存储您的提交，请禁用提交存档。',
+    archiveText: '如果您不希望 Forms 存储您的提交，请禁用提交存档。',
 		archiveDisableText1: 'Once you confirm to disable Submission Archive,',
 		archiveDisableText2: 'all submissions will be deleted',
     timeLimit: '时间限制',
@@ -470,7 +470,7 @@ export default {
     tableName: 'Table name',
     mapFields: 'Map fields',
     tableText3:
-      "Map HeyForm to Airtable fields. It's crucial to type the Airtable field names exactly as they appear in your table. If you change a field name on Airtable, please update it here too, otherwise the integration won't work as expected.",
+      "Map Forms to Airtable fields. It's crucial to type the Airtable field names exactly as they appear in your table. If you change a field name on Airtable, please update it here too, otherwise the integration won't work as expected.",
     DropboxText:
       'Folder where to place file if you have added a "File Upload" component in your form.',
     select: 'Select Folder',
@@ -520,14 +520,14 @@ export default {
     SelectWorksheet: '选择表',
     MapFields: '映射字段',
     googleSheet:
-      '将 HeyForm 映射到 Google Sheets 字段。如果您在 Google Sheets 上更改了一个字段，请在这里进行更新，否则集成将无法按预期工作。',
-    leftPlaceholder: 'HeyForm 问题',
+      '将 Forms 映射到 Google Sheets 字段。如果您在 Google Sheets 上更改了一个字段，请在这里进行更新，否则集成将无法按预期工作。',
+    leftPlaceholder: 'Forms 问题',
     rightPlaceholder: 'Google Sheets 字段',
-    leftTipText: '选择 HeyForm 问题',
+    leftTipText: '选择 Forms 问题',
     rightTipText: '选择 Google Sheets 字段',
     ColumnValues: '列值 (可选的)',
     mondayText:
-      '将 HeyForm 映射到 Monday 列。如果您在 Monday 更改了一列，请也在这里更新，否则集成将无法按预期工作。',
+      '将 Forms 映射到 Monday 列。如果您在 Monday 更改了一列，请也在这里更新，否则集成将无法按预期工作。',
     Board: '机构',
     SelectBoard: '选择一个机构',
     Group: '分组 (可选的)',
@@ -557,7 +557,7 @@ export default {
     Status: '状态',
     ChooseStatus: '选择状态',
     Authorization: '授权',
-    AuthorizationText: '首先，请授权 HeyForm 访问您的数据',
+    AuthorizationText: '首先，请授权 Forms 访问您的数据',
     login: '登录到',
     loginGoogle: '登录 Google'
   },

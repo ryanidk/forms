@@ -22,7 +22,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots or videos to help explain your problem.
 
-**HeyForm (please complete the following information):**
+**Forms (please complete the following information):**
 - Install: [heyform.net or self hosted]
 - Version: [commit sha if self hosted]
 

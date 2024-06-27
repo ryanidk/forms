@@ -1,6 +1,6 @@
 export default {
   app: {
-    name: 'HeyForm',
+    name: 'Forms',
     copy: 'Kopiuj',
     copied: 'Skopiowano'
   },
@@ -11,7 +11,7 @@ export default {
     signWith: 'Zaloguj się przez',
     noAccount: 'Nie masz jeszcze konta?',
     bindAccountDescription:
-      'Jesteś już użytkownikiem HeyForm? Zaloguj się i podlinkuj swoje konto.',
+      'Jesteś już użytkownikiem Forms? Zaloguj się i podlinkuj swoje konto.',
     continueWith: 'Lub kontynuuj z',
     rememberMe: 'Zapamiętaj mnie',
     forgotPassword: 'Zapomniałeś hasła?',
@@ -240,7 +240,7 @@ export default {
     settings: {
       avatar: 'Awatar',
       avatarText:
-        'Domyślnie używany jest Gravatar jako Twój awatar HeyForm, tutaj możesz przesłać swój własny awatar',
+        'Domyślnie używany jest Gravatar jako Twój awatar Forms, tutaj możesz przesłać swój własny awatar',
       deletedAccount: {
         sendEmail: 'Na Twój adres email został wysłany kod weryfikacyjny',
         del: 'Usuń konto',
@@ -316,7 +316,7 @@ export default {
     embedInWebsite: 'Osadź na stronie',
     embed: 'Osadź',
     getTheCode: 'Pobierz kod',
-		addHeyform: 'Dodaj HeyForm do swojej strony',
+		addHeyform: 'Dodaj Forms do swojej strony',
 		embedCodeText: 'Wklej poniższy kod w sekcji <body> ma swojej stronie.',
 		transparentBackground: 'Przeźroczyste tło',
 		position: 'Pozycja',
@@ -367,11 +367,11 @@ export default {
     embedWeb: [
       {
         title: 'Standardowy',
-        description: 'Przedstaw HeyForm jako część swojej strony internetowej'
+        description: 'Przedstaw Forms jako część swojej strony internetowej'
       },
       {
         title: 'Wyskakujące okienko',
-        description: 'HeyForm wyświetla się w środku ekranu.'
+        description: 'Forms wyświetla się w środku ekranu.'
       },
       {
         title: 'Wyskakujące okienko nad',
@@ -425,7 +425,7 @@ export default {
     Extra: 'Dodatkowo',
     subArchive: 'Archiwum zgłoszeń',
     archiveText:
-      'Wyłącz archiwum zgłoszeń, jeśli nie chcesz, aby HeyForm przechowywał Twoje zgłoszenia.',
+      'Wyłącz archiwum zgłoszeń, jeśli nie chcesz, aby Forms przechowywał Twoje zgłoszenia.',
 		archiveDisableText1: 'Kiedy potwierdzisz wyłączenie Archiwum Zgłoszeń,',
 		archiveDisableText2: 'wszystkie zgłoszenia zostaną skasowane',
     timeLimit: 'Limit czasu',
@@ -521,7 +521,7 @@ export default {
     tableName: 'Nazwa tabeli',
     mapFields: 'Mapuj pola',
     tableText3:
-      'Mapuj pola HeyForm na pola Airtable. Kluczowe jest wpisanie dokładnie takich samych nazw pól Airtable, jak pojawiają się w Twojej tabeli. Jeśli zmienisz nazwę pola w Airtable, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
+      'Mapuj pola Forms na pola Airtable. Kluczowe jest wpisanie dokładnie takich samych nazw pól Airtable, jak pojawiają się w Twojej tabeli. Jeśli zmienisz nazwę pola w Airtable, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
     DropboxText:
       'Folder, w którym umieścić plik, jeśli dodałeś komponent "Przesyłanie plików" w swoim formularzu.',
     select: 'Wybierz folder',
@@ -575,14 +575,14 @@ export default {
     SelectWorksheet: 'Wybierz arkusz roboczy',
     MapFields: 'Mapuj pola',
     googleSheet:
-      'Mapuj pola HeyForm na pola Arkuszy Google. Jeśli zmienisz nazwę pola w Arkuszach Google, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
-    leftPlaceholder: 'Pytanie HeyForm',
+      'Mapuj pola Forms na pola Arkuszy Google. Jeśli zmienisz nazwę pola w Arkuszach Google, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
+    leftPlaceholder: 'Pytanie Forms',
     rightPlaceholder: 'Pole Arkuszy Google',
-    leftTipText: 'Wybierz pytanie HeyForm',
+    leftTipText: 'Wybierz pytanie Forms',
     rightTipText: 'Wybierz pole Arkuszy Google',
     ColumnValues: 'Wartości kolumny (opcjonalnie)',
     mondayText:
-      'Mapuj pola HeyForm na kolumny Monday. Jeśli zmienisz kolumnę na Monday, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
+      'Mapuj pola Forms na kolumny Monday. Jeśli zmienisz kolumnę na Monday, zaktualizuj ją też tutaj, w przeciwnym razie integracja nie będzie działać prawidłowo.',
     Board: 'Tablica',
     SelectBoard: 'Wybierz tablicę',
     Group: 'Grupa (opcjonalnie)',
@@ -624,7 +624,7 @@ export default {
     Status: 'Status',
     ChooseStatus: 'Wybierz status',
     Authorization: 'Autoryzacja',
-    AuthorizationText: 'Przede wszystkim autoryzuj HeyForm do dostępu do twoich danych',
+    AuthorizationText: 'Przede wszystkim autoryzuj Forms do dostępu do twoich danych',
     login: 'Zaloguj się do',
     loginGoogle: 'Zaloguj się przez Google'
   },

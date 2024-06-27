@@ -2,7 +2,7 @@ import type { FormTheme } from '@heyform-inc/shared-types-enums'
 import { alpha, helper, hexToRgb, isDarkColor } from '@heyform-inc/utils'
 
 export const DEFAULT_THEME: FormTheme = {
-  fontFamily: 'Public Sans',
+  fontFamily: 'Inter',
   questionTextColor: '#000',
   answerTextColor: '#0445AF',
   buttonBackground: '#0445AF',
@@ -14,7 +14,6 @@ export const SYSTEM_FONTS =
   '-apple-system, BlinkMacSystemFont, Helvetica, Roboto, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", STXihei, "Microsoft YaHei", SimHei, "WenQuanYi Micro Hei", serif'
 
 export const GOOGLE_FONTS = [
-  'Public Sans',
   'Inter',
   'Montserrat',
   'Alegreya',
@@ -131,7 +130,7 @@ export function getThemeStyle(theme: FormTheme, query?: Record<string, any>): st
     --heyform-background-color: ${theme.backgroundColor};
     --heyform-group-background-color: ${getAdaptedColor(theme.backgroundColor!)};
   }
-  
+
   .heyform-theme-background {
     position: absolute;
     top: 0;
@@ -159,13 +158,13 @@ export function getThemeStyle(theme: FormTheme, query?: Record<string, any>): st
     backdrop-filter: saturate(180%) blur(20px);
     z-index: 12;
   }
-  
+
   @media (max-width: 800px) {
     .heyform-block-group {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
-  
+
     .heyform-theme-background,
     .heyform-block-group {
       position: fixed;
@@ -193,7 +192,7 @@ export function getThemeStyle(theme: FormTheme, query?: Record<string, any>): st
 }
 
 const DEFAULT_FONTS =
-  'Public Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
+  'system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji'
 
 export function getStripeElementStyle(theme: FormTheme) {
   return {

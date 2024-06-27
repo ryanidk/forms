@@ -74,7 +74,7 @@ data-heyform-custom-url="${HOMEPAGE_URL}/form/"
 ${attributes.join('\n')}
 >${
       formStore.embedType === 'modal'
-        ? `<button class="heyform__trigger-button" type="button" onclick="HeyForm.openModal('${formId}')">${formStore.currentEmbedConfig.triggerText}</button>`
+        ? `<button class="heyform__trigger-button" type="button" onclick="Forms.openModal('${formId}')">${formStore.currentEmbedConfig.triggerText}</button>`
         : ''
     }</div>
 <script src="https://www.unpkg.com/@heyform-inc/embed@latest/dist/index.umd.js"></script>`

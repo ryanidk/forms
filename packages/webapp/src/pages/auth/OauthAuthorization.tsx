@@ -54,21 +54,21 @@ const OauthAuthorization: FC = () => {
             <div className="mb-4">
               <div className="text-[#4e5d78]">Workspace Read</div>
               <div className="mt-1 text-[13px] text-[#8a94a6]">
-                Retrieve data about all the workspaces in your HeyForm account
+                Retrieve data about all the workspaces in your Forms account
               </div>
             </div>
 
             <div className="mb-4">
               <div className="text-[#4e5d78]">Project Read</div>
               <div className="mt-1 text-[13px] text-[#8a94a6]">
-                Retrieve data about all the project in your HeyForm workspace
+                Retrieve data about all the project in your Forms workspace
               </div>
             </div>
 
             <div className="mb-4">
               <div className="text-[#4e5d78]">Form Read</div>
               <div className="mt-1 text-[13px] text-[#8a94a6]">
-                Retrieve data about all the forms in your HeyForm project
+                Retrieve data about all the forms in your Forms project
               </div>
             </div>
 
@@ -82,7 +82,7 @@ const OauthAuthorization: FC = () => {
             <div className="mb-4">
               <div className="text-[#4e5d78]">Accounts Read</div>
               <div className="mt-1 text-[13px] text-[#8a94a6]">
-                Retrieve your HeyForm account information
+                Retrieve your Forms account information
               </div>
             </div>
           </div>

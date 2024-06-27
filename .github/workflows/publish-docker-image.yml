@@ -54,4 +54,4 @@ jobs:
           url: ${{ secrets.BUILD_NOTIFICATION_URL }}
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"msg_type": "text","content": {"text": "HeyForm docker image build failed"}}'
+          data: '{"msg_type": "text","content": {"text": "Forms docker image build failed"}}'

@@ -51,7 +51,7 @@ export default {
   'End date must be after start date': '结束日期必须在开始日期之后',
   'Thank you!': '感谢您的支持！',
   'Thanks for completing this form. Now create your own form.':
-    '感谢您完成此表单。您也可以通过 HeyForm 来创建您自己的表单。',
+    '感谢您完成此表单。您也可以通过 Forms 来创建您自己的表单。',
   'Form unavailable': '表单不可用',
   'Create a heyform': '创建一个表单',
   "The form can't receive new submissions now.": '表单现在不再接收新的提交。',

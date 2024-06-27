@@ -1,6 +1,5 @@
 export const GOOGLE_FONTS = [
   'Inter',
-  'Public Sans',
   'Georgia',
   'Sniglet',
   'Raleway',
@@ -65,26 +64,6 @@ export const GOOGLE_FONTS_OPTIONS: IOptionType[] = [
 ]
 
 export const FORM_THEMES = [
-  {
-    fontFamily: 'Public Sans',
-    questionTextColor: '#000',
-    answerTextColor: '#0445AF',
-    buttonBackground: '#0445AF',
-    buttonTextColor: '#fff',
-    backgroundColor: '#fff',
-    backgroundImage: undefined,
-    backgroundBrightness: 0
-  },
-  {
-    fontFamily: 'Public Sans',
-    questionTextColor: '#3D3D3D',
-    answerTextColor: '#4FB0AE',
-    buttonBackground: '#4FB0AE',
-    buttonTextColor: '#fff',
-    backgroundColor: '#fff',
-    backgroundImage: undefined,
-    backgroundBrightness: 0
-  },
   {
     fontFamily: 'Inter',
     questionTextColor: '#37404a',

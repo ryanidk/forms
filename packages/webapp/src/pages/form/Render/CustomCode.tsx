@@ -80,21 +80,19 @@ export const CustomCode = ({ form, query }: { form: FormModel; query: Record<str
     document.title = form.name ? `${form.name} - Forms` : 'Forms'
   }, [form.name])
 
-	useEffect(() => {
-    if (form.settings!.captchaKind === CaptchaKindEnum.GOOGLE_RECAPTCHA) {
-      const script = document.createElement('script');
-      script.src = `https://www.google.com/recaptcha/api.js?render=${GOOGLE_RECAPTCHA_KEY}`;
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, [form.settings!.captchaKind]);
-
   return (
     <>
       <link href={fontURL} rel="stylesheet" />
       <style dangerouslySetInnerHTML={{ __html: getThemeStyle(theme, query) }} />
       {helper.isValid(form.themeSettings?.theme?.customCSS) && (
         <style dangerouslySetInnerHTML={{ __html: form.themeSettings!.theme!.customCSS! }} />
+      )}
+
+      {form.settings!.captchaKind === CaptchaKindEnum.GOOGLE_RECAPTCHA && (
+        <script src={`https://www.google.com/recaptcha/api.js?render=${GOOGLE_RECAPTCHA_KEY}`} />
+      )}
+      {form.settings!.captchaKind === CaptchaKindEnum.GEETEST_CAPTCHA && (
+        <script src="https://static.geetest.com/v4/gt4.js" />
       )}
 
       {isStripeEnabled(form) && <script id="stripe" src="https://js.stripe.com/v3/" />}
